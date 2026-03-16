@@ -5,6 +5,9 @@ on:
   schedule:
     - cron: "0 */12 * * *"
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -18,7 +21,7 @@ jobs:
             dist/pacman-contribution-graph.svg
             dist/pacman-contribution-graph-dark.svg?palette=github-dark
 
-      - name: Push snake animation to branch
+      - name: Push snake animation
         uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
