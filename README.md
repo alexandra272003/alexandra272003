@@ -40,9 +40,9 @@ Competed at **UHACK 3.0**, building under real time pressure.
 ## Stats
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=alexandra272003&show_icons=true&theme=dracula&hide_border=true" height="160"/>
+<img src = "https://github-readme-stats.vercel.app/api?username=alexandra272003&show_icons=true&theme=dracula&hide_border=true&cache_seconds=86400" height="160"/>
 &nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=alexandra272003&layout=compact&theme=dracula&hide_border=true" height="160"/>
+<img src = "https://github-readme-stats.vercel.app/api/top-langs/?username=alexandra272003&layout=compact&theme=dracula&hide_border=true&cache_seconds=86400" height="160"/>
 </p>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=alexandra272003&theme=dracula&hide_border=true"/>
