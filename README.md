@@ -12,11 +12,17 @@
 
 ## What I Build
 
-I work on ML and NLP systems that solve practical problems — from automated resume screening to data pipelines. Currently pursuing MCA in Data Science and shipping projects along the way.
+ML, NLP systems, and open-source tooling that solve real problems — 85%+ model accuracy, 60% process optimization. Currently pursuing MCA in Data Science at Prayagraj.
 
-**Resume Shortlisting System** — ML + NLP pipeline that ranks candidates by relevance, cutting manual screening time significantly. Handles keyword extraction, scoring, and candidate ranking end-to-end.
+**CleanFrame** — Declarative data cleaning framework for Pandas using Python decorators. Ensures data is always clean before it reaches your function — automatically and consistently. Built to eliminate the repetitive, easy-to-forget manual cleaning that breaks real-world pipelines.
 
-Competed at **UHACK 3.0**, building under real time pressure.
+**Resume Shortlisting System** — NLP pipeline that processes 500+ resumes using keyword extraction and candidate ranking, cutting recruitment time by 60%.
+
+**Predictive Maintenance System** — ML model trained on 10,000+ records to predict equipment failures using feature engineering and classification algorithms. Achieved 85%+ accuracy.
+
+**PentamedConsorsio** — Full-stack vaccination tracking platform built at UHACK 3.0. Out of 198 teams, shortlisted in the top 60 for idea selection and finished in the **top 5** teams overall.
+
+**Data Visualization Dashboard** — Python dashboards that turn structured datasets into actionable insights.
 
 📍 Prayagraj, India
 
@@ -25,42 +31,49 @@ Competed at **UHACK 3.0**, building under real time pressure.
 ## Stack
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,pandas,numpy,mysql,mongodb,docker,git,aws,gcp,vscode" />
+  <img src="https://skillicons.dev/icons?i=python,cpp,tensorflow,pytorch,scikitlearn,mysql,mongodb,html,css,js,git,aws,gcp,vscode" />
 </p>
 
+<div align="center">
+
 | Area | Tools |
-|------|-------|
+|:---|:---|
 | ML / DL | Scikit-Learn, TensorFlow, PyTorch |
-| Data | Pandas, NumPy, Matplotlib, Seaborn |
+| Data | Pandas, NumPy, Matplotlib, Seaborn, Power BI |
 | Databases | MySQL, MongoDB |
-| Infra | Docker, Git, AWS, GCP |
+| Web | HTML, CSS, JavaScript |
+| Infra | Git, GitHub, AWS, GCP, VS Code, Google Colab |
+
+</div>
 
 ---
 
 ## Stats
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=alexandra272003&show_icons=true&theme=dracula&hide_border=true&cache_seconds=86400" height="160"/>
-&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=alexandra272003&layout=compact&theme=dracula&hide_border=true&cache_seconds=86400" height="160"/>
+  <img src="https://streak-stats.demolab.com?user=alexandra272003&theme=dracula&hide_border=true&date_format=j%20M%5B%20Y%5D" />
 </p>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=alexandra272003&theme=dracula&hide_border=true"/>
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=alexandra272003&theme=dracula&hide_border=true" width="100%" />
+</p>
 
 ---
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/alexandra272003/alexandra272003/output/snake-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/alexandra272003/alexandra272003/output/snake-contribution-graph.svg">
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/alexandra272003/alexandra272003/output/snake-contribution-graph.svg">
-</picture>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/alexandra272003/alexandra272003/output/snake-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/alexandra272003/alexandra272003/output/snake-contribution-graph.svg">
+    <img alt="contribution snake" src="https://raw.githubusercontent.com/alexandra272003/alexandra272003/output/snake-contribution-graph.svg">
+  </picture>
+</p>
 
 ---
 
 <p align="center">
   <a href="https://www.linkedin.com/in/alexandra-pratap-singh-aaab88282"><img src="https://skillicons.dev/icons?i=linkedin"/></a>
   &nbsp;&nbsp;
-  <a href="mailto:youremail@gmail.com"><img src="https://skillicons.dev/icons?i=gmail"/></a>
+  <a href="mailto:alexandraofficial2003@gmail.com"><img src="https://skillicons.dev/icons?i=gmail"/></a>
 </p>
 
 <p align="center">
