@@ -68,7 +68,7 @@ ML, NLP systems, and open-source tooling that solve real problems — 85%+ model
   </picture>
 </p>
 
----
+----
 
 <p align="center">
   <a href="https://www.linkedin.com/in/alexandra-pratap-singh-aaab88282"><img src="https://skillicons.dev/icons?i=linkedin"/></a>
