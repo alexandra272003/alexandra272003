@@ -8,7 +8,7 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&pause=1000&color=00F72E&center=true&vCenter=true&width=480&lines=Building+data-driven+solutions;NLP+%7C+ML+%7C+Python;MCA+Data+Science+%40+Prayagraj" />
 </p>
 
-----
+---
 
 ## What I Build
 
