@@ -1,22 +1,29 @@
 name: Generate Snake
+
 on:
-  workflow_dispatch:
   schedule:
-    - cron: "0 */12 * * *"
-permissions:
-  contents: write
+    - cron: "0 */6 * * *"   # runs every 6 hours — keeps it fresh
+  workflow_dispatch:          # lets you trigger it manually from Actions tab
+  push:
+    branches:
+      - main
+
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+
     steps:
       - name: Generate snake animation
-        uses: Platane/snk/svg-only@v3
+        uses: Platane/snk@v3
         with:
-          github_user_name: alexandra272003
+          github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/snake-contribution-graph.svg
             dist/snake-contribution-graph-dark.svg?palette=github-dark
-      - name: Push snake animation
+            dist/snake-contribution-graph-purple.svg?color_snake=#EAB308&color_apple=#EF4444&color_dots=#1e1e2e,#3b1f6e,#6C47FF,#A855F7,#c084fc&color_empty=#1e1e2e
+
+      - name: Push output to output branch
         uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
