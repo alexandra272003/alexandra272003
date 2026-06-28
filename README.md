@@ -142,9 +142,6 @@ Interactive Python dashboards that turn raw structured datasets into clear, acti
   <img src="https://streak-stats.demolab.com?user=alexandra272003&theme=dracula&hide_border=true&date_format=j%20M%5B%20Y%5D&ring=A855F7&fire=6C47FF&currStreakLabel=A855F7" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=alexandra272003&theme=dracula&hide_border=true&color=A855F7&line=6C47FF&point=ffffff" width="100%" />
-</p>
 
 ---
 
