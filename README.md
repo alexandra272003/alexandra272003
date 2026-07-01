@@ -86,18 +86,20 @@ NLP pipeline that processes **500+ resumes** using keyword extraction and candid
 
 <!-- 05 -->
 <details>
-<summary><b>05 · Heart Disease Classification</b> &nbsp;·&nbsp; <i>End-to-end ML pipeline on UCI dataset</i></summary>
+<summary><b>05 · Heart Disease Classification</b> &nbsp;·&nbsp; <i>End-to-end ML pipeline on UCI dataset</i> &nbsp; <img src="https://img.shields.io/badge/accuracy-90%25-A855F7?style=flat-square"/></summary>
 <br/>
 
-Complete workflow from EDA through preprocessing, model comparison, hyperparameter tuning, and feature importance analysis. Three algorithms compared under identical conditions.
+End-to-end machine learning pipeline for heart disease prediction using the UCI Heart Disease dataset. Includes exploratory data analysis, preprocessing, feature engineering, model comparison, hyperparameter tuning, and performance evaluation across multiple classification algorithms.
 
 | Model | Highlights |
 |:---|:---|
-| Logistic Regression | Baseline + feature importance ranking |
-| K-Nearest Neighbors | K sweep across validation set |
-| Random Forest | Ensemble tuning, best generalization |
+| Logistic Regression | Regularized baseline with feature analysis |
+| K-Nearest Neighbors | Hyperparameter tuning and optimized neighbor selection |
+| Random Forest | Ensemble learning with improved generalization |
 
-`Scikit-Learn` · `Seaborn` · `Matplotlib` · `Pandas` · `Jupyter`
+**Best Model Accuracy:** **90%**
+
+`Scikit-Learn` · `Pandas` · `NumPy` · `Matplotlib` · `Seaborn` · `Jupyter`
 
 </details>
 
@@ -105,12 +107,14 @@ Complete workflow from EDA through preprocessing, model comparison, hyperparamet
 
 <!-- 06 -->
 <details>
-<summary><b>06 · Data Visualization Dashboard</b> &nbsp;·&nbsp; <i>Python dashboards from structured datasets</i></summary>
+<summary><b>06 · Blue Book for Bulldozers Price Prediction</b> &nbsp;·&nbsp; <i>Kaggle regression project for auction price prediction</i> &nbsp; <img src="https://img.shields.io/badge/RMSLE-0.24609-06B6D4?style=flat-square"/></summary>
 <br/>
 
-Interactive Python dashboards that turn raw structured datasets into clear, actionable insights. Built for exploratory data analysis and stakeholder reporting.
+End-to-end regression project built using the Kaggle Blue Book for Bulldozers dataset. Developed a complete machine learning workflow including data preprocessing, feature engineering, date-based feature extraction, model training, evaluation, and prediction of heavy equipment auction sale prices.
 
-`Python` · `Matplotlib` · `Seaborn` · `Power BI` · `Pandas`
+**Competition Metric:** **RMSLE = 0.24609**
+
+`Python` · `Scikit-Learn` · `Pandas` · `NumPy` · `Matplotlib` · `Feature Engineering` · `Regression`
 
 </details>
 
