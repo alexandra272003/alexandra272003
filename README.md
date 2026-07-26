@@ -176,7 +176,7 @@ Built a predictive maintenance system that analyzes historical equipment data to
 
 </details>
 
----
+----
 
 <!-- 07 -->
 
