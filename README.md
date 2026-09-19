@@ -193,11 +193,99 @@ Developed a full-stack healthcare platform for vaccination record management dur
 
 </details>
 
+---
+
+## ⚙️ Backend Engineering
+
+Three services built back to back during a backend + GenAI interview sprint — each one adds a layer the last one deliberately left out.
+
+<!-- 08 -->
+
+<details>
+<summary><b>08 · Shopping API</b> &nbsp;·&nbsp; <i>Transactional E-Commerce Backend</i> &nbsp;
+<img src="https://img.shields.io/badge/PostgreSQL-16-06B6D4?style=flat-square&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/Oversell-Proof-22c55e?style=flat-square"/>
+</summary>
+
+<br/>
+
+A backend for a small shop: categories, products, orders, and stock that never goes negative — even when two people grab the last unit at the same moment.
+
+### Highlights
+
+* 6-table relational schema (users, categories, products, inventory, orders, order_items) with the reasoning written up in an ER doc
+* Stock decrement done as **one atomic SQL statement**; the loser gets a `409 insufficient_stock` and the whole order rolls back
+* Concurrent-request test that proves exactly one of two simultaneous orders wins
+* Alembic migrations for every schema change, including a real hotfix: a timezone bug that SQLite hid and real Postgres exposed
+* Router → service → repository layering, Docker Compose with healthcheck-gated startup
+
+`Python` · `FastAPI` · `SQLAlchemy 2.0` · `PostgreSQL` · `Alembic` · `Docker`
+
+🔗 [View repo](https://github.com/alexandra272003/Shopping_API)
+
+</details>
+
+---
+
+<!-- 09 -->
+
+<details>
+<summary><b>09 · Secure API</b> &nbsp;·&nbsp; <i>JWT Auth, Redis & Background Workers</i> &nbsp;
+<img src="https://img.shields.io/badge/JWT-Auth-A855F7?style=flat-square"/>
+<img src="https://img.shields.io/badge/Redis-Rate%20Limit%20%2B%20Cache-EA4335?style=flat-square&logo=redis&logoColor=white"/>
+</summary>
+
+<br/>
+
+The production layer the first two projects skipped: authentication, authorization, rate limiting, caching, and work that happens off the request path.
+
+### Highlights
+
+* JWT login with bcrypt-hashed passwords, and identical errors for "no such user" vs "wrong password" so usernames can't be enumerated
+* Admin / user roles: `401` when we don't know who you are, `403` when we do and the answer is no
+* Redis rate limiter built on atomic `INCR`, so limits hold across multiple API instances (a Python dict wouldn't)
+* Cache-aside endpoint with TTL, plus a Celery worker that sends the welcome email outside the HTTP request
+* 4-service Docker Compose stack (API + Postgres + Redis + worker), tests on `fakeredis`, GitHub Actions CI
+
+`Python` · `FastAPI` · `JWT` · `Redis` · `Celery` · `PostgreSQL` · `GitHub Actions`
+
+🔗 [View repo](https://github.com/alexandra272003/secure-api)
+
+</details>
+
+---
+
+<!-- 10 -->
+
+<details>
+<summary><b>10 · Ping / User API</b> &nbsp;·&nbsp; <i>REST + MongoDB Fundamentals</i> &nbsp;
+<img src="https://img.shields.io/badge/MongoDB-Indexed-22c55e?style=flat-square&logo=mongodb&logoColor=white"/>
+</summary>
+
+<br/>
+
+Where the request path finally clicked: validation, layered architecture, real database-enforced constraints, and an environment a fresh clone can start with one command.
+
+### Highlights
+
+* Users and Notes CRUD on MongoDB, with unique indexes on `username` and `email` returning `409 Conflict`
+* Pagination, tag filtering and whitelisted sorting, backed by a compound `(tags, created_at)` index
+* Verified with `explain()`: index scan (`IXSCAN`) instead of a full collection scan at 5,000 documents
+* Centralized error contract, structured logging, env-based config
+* `docker compose up --build` from a fresh clone, no manual steps
+
+`Python` · `FastAPI` · `MongoDB` · `Pydantic` · `Docker`
+
+🔗 [View repo](https://github.com/alexandra272003/ping-user-api)
+
+</details>
+
+---
 
 ## Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,cpp,tensorflow,pytorch,scikitlearn,mysql,mongodb,html,css,js,git,aws,gcp,vscode" />
+  <img src="https://skillicons.dev/icons?i=python,cpp,fastapi,tensorflow,pytorch,scikitlearn,postgres,mysql,mongodb,redis,docker,html,css,js,git,aws,gcp,vscode" />
 </p>
 
 <div align="center">
@@ -206,9 +294,10 @@ Developed a full-stack healthcare platform for vaccination record management dur
 |:---|:---|
 | ML / DL | Scikit-Learn, TensorFlow, PyTorch |
 | Data | Pandas, NumPy, Matplotlib, Seaborn, Power BI |
-| Databases | MySQL, MongoDB |
+| Backend | FastAPI, SQLAlchemy, Alembic, JWT, Celery |
+| Databases | PostgreSQL, MySQL, MongoDB, Redis |
 | Web | HTML, CSS, JavaScript |
-| Infra | Git, GitHub, AWS, GCP, VS Code, Google Colab |
+| Infra | Docker, Git, GitHub, GitHub Actions, AWS, GCP, VS Code, Google Colab |
 
 </div>
 
@@ -217,7 +306,12 @@ Developed a full-stack healthcare platform for vaccination record management dur
 ## Stats
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=alexandra272003&theme=dracula&hide_border=true"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=alexandra272003&theme=dracula" width="49%"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=alexandra272003&theme=dracula" width="49%"/>
+</p>
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=alexandra272003&theme=dracula" width="49%"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=alexandra272003&theme=dracula&utcOffset=5" width="49%"/>
 </p>
 
 ---
