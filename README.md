@@ -285,7 +285,7 @@ Where the request path finally clicked: validation, layered architecture, real d
 ## Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,cpp,fastapi,tensorflow,pytorch,scikitlearn,postgres,mysql,mongodb,redis,docker,html,css,js,git,aws,gcp,vscode" />
+  <img src="https://skillicons.dev/icons?i=python,fastapi,tensorflow,pytorch,scikitlearn,postgres,mysql,mongodb,redis,docker,js,git,aws,gcp,vscode" />
 </p>
 
 <div align="center">
