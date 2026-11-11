@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:6C47FF,50:A855F7,100:06B6D4&text=Alexandra%20Pratap%20Singh&fontSize=38&fontAlign=50&fontAlignY=38&fontColor=ffffff&desc=Data%20Science%20%C2%B7%20Machine%20Learning%20%C2%B7%20Open%20Source&descAlign=50&descAlignY=58&descSize=15"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:F92672,50:AE81FF,100:66D9EF&text=Alexandra%20Pratap%20Singh&fontSize=38&fontAlign=50&fontAlignY=38&fontColor=ffffff&desc=Data%20Science%20%C2%B7%20Machine%20Learning%20%C2%B7%20Open%20Source&descAlign=50&descAlignY=58&descSize=15"/>
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&pause=1000&color=A855F7&center=true&vCenter=true&width=600&lines=Building+data-driven+solutions;PyPI+Author+%7C+pycleanframe;NLP+%7C+ML+%7C+Python;Top+5+%40+UHACK+3.0+%E2%80%94+198+teams;MCA+Data+Science+%40+Prayagraj" />
@@ -522,6 +522,19 @@ Practice code from working through *Python Crash Course (3rd Edition)* by Eric M
 
 ---
 
+## 📜 Certifications
+
+| Certificate | Issuer | Date |
+|:---|:---|:---|
+| AI-Machine Learning Engineer Certificate Course | Reliance Foundation Skilling Academy | Apr 2026 |
+| Applied Machine Learning | Reliance Foundation Skilling Academy | Apr 2026 |
+| Decision Trees using Python | Wingspan | Mar 2026 |
+| AWS Certified Developer – Associate assessment (93.75%) | Learning platform assessment | 2026 |
+
+🔗 [All certificates](https://github.com/alexandra272003/Certificates)
+
+---
+
 ## Stack
 
 <p align="center">
@@ -547,12 +560,12 @@ Practice code from working through *Python Crash Course (3rd Edition)* by Eric M
 ## Stats
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=alexandra272003&theme=dracula" width="49%"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=alexandra272003&theme=dracula" width="49%"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=alexandra272003&theme=monokai" width="49%"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=alexandra272003&theme=monokai" width="49%"/>
 </p>
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=alexandra272003&theme=dracula" width="49%"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=alexandra272003&theme=dracula&utcOffset=5" width="49%"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=alexandra272003&theme=monokai" width="49%"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=alexandra272003&theme=monokai&utcOffset=5" width="49%"/>
 </p>
 
 ---
@@ -573,4 +586,4 @@ Practice code from working through *Python Crash Course (3rd Edition)* by Eric M
   <a href="mailto:alexandraofficial2003@gmail.com"><img src="https://skillicons.dev/icons?i=gmail"/></a>
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06B6D4,50:A855F7,100:6C47FF&height=120&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:66D9EF,50:AE81FF,100:F92672&height=120&section=footer"/>
